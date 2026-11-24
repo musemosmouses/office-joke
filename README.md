@@ -15,7 +15,7 @@ Entry for the make.fun bounty **One-Line Office Joke: 24-Hour Sprint** — one s
 ## Run
 
 ```sh
-node main.ts   # writes entry.txt (and /output/entry.txt when /output exists)
+node main.ts   # writes entry.txt to $MAKEFUN_OUTPUT_DIR (default ./out)
 ```
 
 ## License
